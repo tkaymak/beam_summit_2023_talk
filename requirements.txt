@@ -24,7 +24,7 @@ google-cloud-pubsub==2.17.1
 google-cloud-pubsublite==1.8.2
 google-cloud-recommendations-ai==0.10.3
 google-cloud-spanner==3.35.1
-google-cloud-videointelligence==2.11.1
+google-cloud-videointelligence==2.11.2
 google-cloud-vision==3.4.2
 google-crc32c==1.5.0
 google-resumable-media==2.5.0

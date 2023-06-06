@@ -30,20 +30,22 @@ pip install -e .
 
 ### Running the pipeline
 
-Running your pipeline in Python is as easy as running the script file directly.
+Running your pipeline in Python is as easy as running the tests directly.
 
 ```sh
-# You can run the script file directly.
-python main.py
-
-# To run passing command line arguments.
-python main.py --input-text="🎉"
-
-# To run the tests.
+# To run the pipeline as a Testpipeline and experience how it works through the logs.
 python -m unittest -v
+
+# To run passing command line arguments (these are ignored in the app.py right now).
+python main.py --lookup_input_topic="🎉" --core_input_topic="🎉"
+
+
 ```
 
 # License
+Copyright 2023 Google LLC
+
+Disclaimer: This is not an official Google product (experimental or otherwise), it is just code that happens to be owned by Google.
 
 This software is distributed under the terms of both the MIT license and the
 Apache License (Version 2.0).
